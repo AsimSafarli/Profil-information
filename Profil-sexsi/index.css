@@ -1,0 +1,166 @@
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}
+
+.sidebar {
+ display: inline;
+  margin: 74px;
+  padding: 0;
+  width: 254px;
+  overflow: auto;
+  height: 559px;
+  background-color: #f1f1f1;
+  position: absolute;
+  background: #ffffff;
+  /* sha2 */
+
+  box-shadow: 0px 4px 18px rgba(55, 127, 240, 0.12);
+  border-radius: 8px;
+}
+
+.sidebar a {
+  display: block;
+  color: #377ff0;
+  padding: 16px;
+  text-decoration: none;
+  padding-right: 20px;
+}
+.bold{
+    font-weight: 600;
+}
+.make {
+  display: flex;
+  justify-content: space-evenly;
+}
+ion-icon {
+  width: 24px;
+  height: 24px;
+}
+div.content {
+  margin-left: 480px;
+  position: relative;
+  width: 822px;
+  height: 559px;
+  top: 75px;
+  left: 144px;
+  /* White */
+  
+  background: #FFFFFF;
+  /* sha2 */
+  
+  box-shadow: 0px 4px 18px rgba(55, 127, 240, 0.12);
+  border-radius: 8px;
+}
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {
+    float: left;
+  }
+  div.content {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
+textarea{
+  background: #FFFFFF;
+  border: 1px solid #F2F2F2;
+  border-radius: 4px;
+  width: 1009px;
+height: 84px;
+}
+input{
+  background: #FFFFFF;
+border: 1px solid #F2F2F2;
+border-radius: 4px;
+width: 390px;
+height: 48px;
+}
+label{
+  color: #9BA3AE;
+}
+.mail{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+width: 340px;
+height: 80px;
+ color: #377FF0;;
+ font-weight: 600;
+font-size: 18px;
+line-height: 23px;
+margin-left: 500px;
+  background: #FFFFFF;
+/* sha2 */
+box-shadow: 0px 4px 18px rgba(55, 127, 240, 0.12);
+border-radius: 8px;
+}
+.cont{
+  font-weight: 600;
+font-size: 24px;
+line-height: 30px;
+}
+.spc{
+  width: 789px;
+height: 48px;
+}
+.profil{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+.upload{
+  display: block;
+  margin-top: -51.21px;
+  margin-left: 330px;
+  margin-right: auto;
+  position: absolute;
+  width: 162px;
+height: 51.21px;
+background: #377FF0;
+opacity: 0.8;
+border-radius: 4px;
+}
+.upload ion-icon{
+  color: #f1f1f1;
+  margin-left: 75px;
+  margin-top: 15px;
+}
+/**/
+.bg-theme{
+  background-color: #193257;
+  height: 47px;
+}
+.solid{
+width: 100%;
+height: 0px;
+border: 1px solid #9BA3AE;
+}
+.theme{
+  background-color: #051935;
+  margin-top: 100px;
+}
+.ms-10{
+  margin-left: 170px;
+}
+.ms-11{
+  margin-left: 470px;
+}
+.ms-6{
+  padding-left: 260px;
+}
+.banner{
+width: 100%;
+}
